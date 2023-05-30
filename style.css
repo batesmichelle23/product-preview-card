@@ -16,3 +16,9 @@
     letter-spacing: 3px;
     color: hsl(228, 12%, 48%);
 }
+
+.card-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 45px;
+}
