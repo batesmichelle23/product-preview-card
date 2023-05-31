@@ -1,3 +1,7 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
 .attribution { 
     font-size: 11px; text-align: center;
  }
@@ -8,6 +12,9 @@
 
 .container {
     font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
 }
 
 .category {
@@ -20,5 +27,59 @@
 .card-title {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    display: flex;
+    flex-direction: row;
+}
+
+.card-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sale-price {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.orig-price {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 14px;
+    margin-left: 25px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+    border: 2px solid hsl(158, 36%, 37%);
+    border-radius: 10px;
+}
+
+.icon {
+    padding-right: 8px;
+}
+
+.card {
+    border: 2px solid hsl(30, 38%, 92%);
+    border-radius: 15px;
+}
+
+.card-body {
+    padding-left: 25px;
+    padding-right: 25px;
 }
