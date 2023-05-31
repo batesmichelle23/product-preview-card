@@ -32,7 +32,7 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here]https://github.com/batesmichelle23/product-preview-card)
 - Live Site URL: [Add live site URL here](https://product-preview-card-gamma-two.vercel.app/)
 
 ## My process
